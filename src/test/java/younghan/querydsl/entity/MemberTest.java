@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 @SpringBootTest
@@ -43,6 +45,10 @@ class MemberTest {
         for(Member member: members) {
             System.out.println("member = " + member);
             System.out.println("-> member.team = " + member.getTeam());
+
+
         }
+        //
+
     }
 }
