@@ -9,18 +9,10 @@ spring:
     hibernate:
       ddl-auto: create
     properties:
-      jakarta:
-        persistence:
-          sharedCache:
-            mode: ENABLE_SELECTIVE
       hibernate:
 #        show_sql: true
         format_sql: true
         use_sql_comments: true
-        cache:
-          use_second_level_cache: true
-          region:
-            factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory # EHCACHE
 
 logging.level:
   org.hibernate.SQL: debug
