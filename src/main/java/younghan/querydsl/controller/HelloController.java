@@ -1,4 +1,4 @@
-package younghan.querydsl.HelloController;
+package younghan.querydsl.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
